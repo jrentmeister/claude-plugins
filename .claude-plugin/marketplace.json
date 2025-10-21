@@ -1,11 +1,36 @@
 {
   "name": "jrentmeister-plugins",
-  "displayName": "JRentmeister's Claude Plugins",
-  "description": "Personal plugin marketplace for Claude Code extensions",
-  "version": "1.0.0",
   "owner": {
     "name": "jrentmeister",
-    "email": "[email protected]"
+    "email": "[email protected]",
+    "url": "https://github.com/jrentmeister"
   },
-  "plugins": []
+  "metadata": {
+    "description": "Personal plugin marketplace for Claude Code extensions and specialized agents",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "golf-leaderboard",
+      "source": "./plugins/golf-leaderboard",
+      "description": "Golf leaderboard development tools with specialized agents for tournament tracking and scoring systems",
+      "version": "1.0.0",
+      "author": {
+        "name": "jrentmeister",
+        "url": "https://github.com/jrentmeister"
+      },
+      "license": "MIT",
+      "keywords": ["golf", "leaderboard", "sports", "tournament"],
+      "category": "development",
+      "agents": [
+        "./plugins/golf-leaderboard/agents/golf-architect.md"
+      ],
+      "commands": [
+        "./plugins/golf-leaderboard/commands/setup-project.md"
+      ],
+      "skills": [
+        "./plugins/golf-leaderboard/skills/golf-scoring-rules.md"
+      ]
+    }
+  ]
 }
