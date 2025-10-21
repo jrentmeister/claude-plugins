@@ -3,6 +3,9 @@
   "displayName": "JRentmeister's Claude Plugins",
   "description": "Personal plugin marketplace for Claude Code extensions",
   "version": "1.0.0",
-  "owner": "jrentmeister",
+  "owner": {
+    "name": "jrentmeister",
+    "email": "[email protected]"
+  },
   "plugins": []
 }
